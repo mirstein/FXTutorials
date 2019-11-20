@@ -11,10 +11,7 @@
 bin/
 
 # IDEA #
-.idea/
-*.iml
 out/
-lib/
 
 # Maven #
 dependency-reduced-pom.xml
@@ -23,3 +20,4 @@ target/
 # logs #
 *.log
 logs/
+.idea/workspace.xml
