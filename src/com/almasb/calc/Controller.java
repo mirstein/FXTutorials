@@ -7,17 +7,18 @@ import javafx.scene.text.Text;
 
 public class Controller {
 
+
     @FXML
-    private Text output;
+    Text output;
 
     private long number1 = 0;
     private String operator = "";
-    private boolean start = true;
+    boolean start = true;
 
     private Model model = new Model();
 
     @FXML
-    private void processNumpad(ActionEvent event) {
+    void processNumpad(ActionEvent event) {
         if (start) {
             output.setText("");
             start = false;
